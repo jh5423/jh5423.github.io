@@ -121,6 +121,24 @@ no_side_nav: true
 
 ---
 
+## 🧹 주번 신청 {#duty}
+
+<div class="form-actions">
+  <a class="cta" href="https://docs.google.com/spreadsheets/d/12zecQI8TnRNv8Tnx5KK_1YQHUBcCn2D0FA0P-TDsV68/edit?usp=sharing" target="_blank" rel="noopener">
+    📌 주번 신청 바로가기
+  </a>
+</div>
+
+<div class="qr-box">
+  <div class="qr-title">📷 QR로 신청하기</div>
+  <a href="https://docs.google.com/spreadsheets/d/12zecQI8TnRNv8Tnx5KK_1YQHUBcCn2D0FA0P-TDsV68/edit?usp=sharing" target="_blank" rel="noopener">
+    <img class="qr" src="{{ '/assets/img/jubeon-signup-qr.png' | relative_url }}" alt="주번 신청 QR 코드" />
+  </a>
+  <div class="qr-note">QR을 스캔하거나 이미지를 클릭하면 신청 시트가 열립니다.</div>
+</div>
+
+---
+
 ## ☀️ 아침의 기적 (1학기) {#morning}
 
 ### 🌿 자기주도 프로젝트
