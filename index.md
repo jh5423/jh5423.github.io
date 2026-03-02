@@ -23,13 +23,13 @@ hero:
 
   <div class="menu-grid">
     <a class="menu-card" href="{{ '/class-ot/' | relative_url }}">
-      <div class="t">🏯 학급 OT</div>
+      <div class="t">🏫 학급 OT</div>
       <p class="d">2-3반 · 학급 운영 · 출결 · 역할 · 동료평가</p>
       <div class="meta">바로가기 →</div>
     </a>
 
     <a class="menu-card" href="{{ '/algebra-ot/' | relative_url }}">
-      <div class="t">📐 대수 OT</div>
+      <div class="t">🔢 대수 OT</div>
       <p class="d">교재 · 단원 · 평가(정기/수행) · 발표 · 학습계통</p>
       <div class="meta">바로가기 →</div>
     </a>
