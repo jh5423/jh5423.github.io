@@ -3,35 +3,7 @@ layout: default
 title: "논술 OT"
 subtitle: "3학년 1학기 · 독서 + 감상 기록"
 no_side_nav: true
-sections:
-  - id: intro
-    label: "수업 소개"
-  - id: flow
-    label: "수업 흐름"
-  - id: choose
-    label: "책 선택"
-  - id: review
-    label: "감상평"
-  - id: form
-    label: "제출 폼"
 ---
-
-<div class="callout">
-  <div class="title">✅ 요약</div>
-  <ul>
-    <li><b>수업:</b> 자유 독서 + 감상 기록(정답 없는 수업)</li>
-    <li><b>진행:</b> OT → 도서관 방문 → 매시간 독서+감상평 제출</li>
-    <li><b>제출:</b> 매 수업 <b>구글폼</b>으로 감상평 작성(항목당 3~5문장 권장)</li>
-  </ul>
-</div>
-
-<div class="jump">
-  <a class="chip" href="#intro">📚 수업 소개</a>
-  <a class="chip" href="#flow">🕐 수업 흐름</a>
-  <a class="chip" href="#choose">📖 책 선택</a>
-  <a class="chip" href="#review">📝 감상평</a>
-  <a class="chip" href="#form">✏️ 제출 폼</a>
-</div>
 
 ## 📚 수업 소개 {#intro}
 
