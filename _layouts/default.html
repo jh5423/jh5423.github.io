@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'ko-KR' }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>
+    {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+  </title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | default: site.description }}" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+
+<body>
+  <a class="skip" href="#content">본문 바로가기</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a class="brand-link" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">∑</span>
+          <span class="brand-text">
+            <span class="brand-title">{{ site.title }}</span>
+            <span class="brand-sub">{{ site.description }}</span>
+          </span>
+        </a>
+      </div>
+
+      {% include nav.html %}
+    </div>
+  </header>
+
+  <main id="content" class="wrap main">
+    {% if page.hero %}
+      <section class="hero">
+        <div class="hero-inner">
+          <h1 class="hero-title">{{ page.hero.title }}</h1>
+          <p class="hero-desc">{{ page.hero.desc }}</p>
+          {% if page.hero.badges %}
+            <div class="badges">
+              {% for b in page.hero.badges %}
+                <span class="badge">{{ b }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </section>
+    {% endif %}
+
+    <article class="card page">
+      {% if page.title %}
+        <div class="page-head">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+        </div>
+      {% endif %}
+
+      <div class="prose">
+        {{ content }}
+      </div>
+    </article>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© {{ "now" | date: "%Y" }} {{ site.title }}</span>
+        <span class="dot">·</span>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
