@@ -3,41 +3,7 @@ layout: default
 title: "대수 OT"
 subtitle: "2학년 1학기 · 2022 개정 교육과정"
 no_side_nav: true
-sections:
-  - id: books
-    label: "교재"
-  - id: units
-    label: "단원"
-  - id: grading
-    label: "평가"
-  - id: exams
-    label: "정기고사"
-  - id: performance
-    label: "수행평가"
-  - id: talk
-    label: "주제발표"
-  - id: roadmap
-    label: "학습계통"
 ---
-
-<div class="callout">
-  <div class="title">✅ 요약</div>
-  <ul>
-    <li><b>단원:</b> 지수·로그 / 삼각함수 / 수열</li>
-    <li><b>평가:</b> 정기고사 60% (중간 30 + 기말 30) / 수행평가 40%</li>
-    <li><b>수행:</b> 개념정리(10) + 문제서술·풀이해설(10) + 상호배움(20)</li>
-  </ul>
-</div>
-
-<div class="jump">
-  <a class="chip" href="#books">📚 교재</a>
-  <a class="chip" href="#units">🧩 단원</a>
-  <a class="chip" href="#grading">🧾 평가</a>
-  <a class="chip" href="#exams">📝 정기고사</a>
-  <a class="chip" href="#performance">✍️ 수행평가</a>
-  <a class="chip" href="#talk">🎤 발표</a>
-  <a class="chip" href="#roadmap">🧭 계통</a>
-</div>
 
 ## 📚 교재 {#books}
 
@@ -71,7 +37,7 @@ sections:
 ### 문항 구성(100점 만점)
 
 | 유형 | 배점 | 문항 |
-|---|---:|---|
+| --- | ---: | --- |
 | 선택형 | 50점 | 15문항 |
 | 단답형 | 20점 | 4문항 내외 |
 | 서술형 | 30점 | 4문항 내외 |
@@ -126,7 +92,7 @@ sections:
 |---|---|
 | 수능 간접 출제 범위 | 공통수학1: 다항식, 방정식·부등식, 도형의 방정식 |
 | 수능 간접 출제 범위 | 공통수학2: 집합·명제, 함수, 경우의 수 |
-| ★ 현재 과목 · 수능 시험범위 | <b>대수(2-1)</b>: 지수·로그 · 삼각함수 · 수열 |
+| ★ 현재 과목 · 수능 시험범위 | **대수(2-1)**: 지수·로그 · 삼각함수 · 수열 |
 | 수능 시험범위 | 미적분Ⅰ(2-2): 극한·연속 · 미분 · 적분 |
 | 선수 필요 | 미적분Ⅱ(3-1): 수열의 극한 · 미분법 · 적분법 |
 
