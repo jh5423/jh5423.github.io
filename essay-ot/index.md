@@ -43,7 +43,19 @@ no_side_nav: true
 
 ## ✏️ 감상평 작성 폼 {#form}
 
-- 링크: [https://docs.google.com/forms/d/e/1FAIpQLScBn1lupGrCj6N2eg7W40EseS_JWlnqiWRGSYGeYIZMvT7KIg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScyO1eFm6nwrP3giZJe6f8n_-YuI_xEpxNCoEQSzooaHf3xmw/viewform?usp=sharing&ouid=109716506788834323176)
+<div class="form-actions">
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScyO1eFm6nwrP3giZJe6f8n_-YuI_xEpxNCoEQSzooaHf3xmw/viewform?usp=sharing&amp;ouid=109716506788834323176" target="_blank" rel="noopener">
+    📝 폼 바로가기
+  </a>
+</div>
+
+<div class="qr-box">
+  <div class="qr-title">📷 QR로 열기</div>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScyO1eFm6nwrP3giZJe6f8n_-YuI_xEpxNCoEQSzooaHf3xmw/viewform?usp=sharing&amp;ouid=109716506788834323176" target="_blank" rel="noopener">
+    <img class="qr" src="{{ '/assets/img/essay-form-qr.png' | relative_url }}" alt="논술 감상평 제출 폼 QR 코드" />
+  </a>
+  <div class="qr-note">QR을 스캔하거나 이미지를 클릭하면 폼이 열립니다.</div>
+</div>
 
 <div class="callout neutral">
   <div class="title">폼에 들어가는 항목(요약)</div>
